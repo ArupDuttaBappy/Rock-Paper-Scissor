@@ -1,0 +1,141 @@
+*{
+  
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: black;
+}
+
+header{
+	background-color: orange;
+	padding:30px;
+    
+
+}
+header> h1{
+	font-family: Bold,sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.score-board{
+	margin:20px auto;
+	border:3px solid white;
+	width: 300px;
+	height: 150px;
+	color: white;
+	font-family: sans-serif;
+	border-radius: 10px;
+	text-align: center;
+	padding: 15px;
+	font-size: 30px;
+	position: relative;
+
+}
+
+#msg1{
+	position: absolute;
+	top: 100px;
+	left: -460px;
+	font-size: 50px;
+	font-family: Bold,sans-serif;
+	font-weight: 700;
+}
+#logo1{
+	border:4px solid white;
+	padding: 10px;
+	position: absolute;
+	top: 150px;
+	left: -460px;
+	font-size: 50px;
+	font-family: Bold,sans-serif;
+	font-weight: 700;
+}
+
+#msg2{
+	position: absolute;
+	top: 100px;
+	left: 580px;
+	font-size: 50px;
+	font-family: Bold,sans-serif;
+	font-weight: 700;
+}
+#logo2{
+	border:4px solid white;
+	padding: 10px;
+	position: absolute;
+	top: 150px;
+	left: 580px;
+	font-size: 50px;
+	font-family: Bold,sans-serif;
+	font-weight: 700;
+}
+
+.badge{
+	background-color: orange;
+	color:black;
+	padding: 3px;
+	width: 100px;
+	font-family: bold,Arial;
+}
+
+#user-label{
+
+position: absolute;
+top: 60px;
+left: -50px;
+}
+#AI-label{
+
+position: absolute;
+top: 60px;
+left: 250px;
+}
+
+#user-score{
+position: absolute;
+top: 63px;
+left: 90px;
+
+}
+#AI-score{
+position: absolute;
+top: 63px;
+left: 195px;
+}
+
+#colon{
+	position: absolute;
+top: 63px;
+left: 148px;
+}
+
+.choices{
+	margin:50px 0;
+	text-align: center;
+}
+.choice{
+	border:4px solid white;
+	border-radius: 50%;
+
+	margin: 0 20px;
+	padding:10px;
+	display: inline-block;
+	transition: all 0.3s ease;
+}
+.choice:hover{
+	cursor:pointer;
+	background-color: orange;
+}
+
+#result{
+	color: white;
+	font-family: italic,sans-serif;
+	font-size: 35px;
+	font-weight: 700;
+text-align: center;
+
+}
+
